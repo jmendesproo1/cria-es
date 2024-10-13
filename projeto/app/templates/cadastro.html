@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+<main>
+    <div>
+        <div></div>
+        <div class="cadastro-conteiner">
+            <form action="POST">
+               <div class="post-grupo">
+                <label for="nome"> Nome:
+                    <input type="text" name="nome" id="nome" required>
+                </label>
+               </div>
+               <div class="post-grupo">
+                <label for="email">Email:
+                    <input type="email" required>
+                </label>
+               </div>
+               <div class="post-grupo">
+                <label for="password">Senha:
+                    <input type="password" name="password" id="password" required>
+                </label>
+               </div>
+
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+
+</html>
